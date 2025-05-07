@@ -25,7 +25,7 @@ import { useSnackbar } from 'notistack';
 import itemService from '../../services/itemService';
 import recommendationService from '../../services/recommendationService';
 import LoadingSpinner from '../ui/LoadingSpinner';
-import { formatDateInput } from '../../utils/dateHelpers';
+//import { formatDateInput } from '../../utils/dateHelpers';
 
 const categories = [
   'Medical',

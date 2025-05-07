@@ -9,7 +9,7 @@ export const formatDate = (dateString) => {
     return 'Invalid date';
   }
 };
-
+/* MUI Datepicker will be used
 export const formatDateInput = (dateString) => {
   try {
     const date = parseISO(dateString);
@@ -18,7 +18,7 @@ export const formatDateInput = (dateString) => {
     return '';
   }
 };
-
+*/
 export const getDaysUntilExpiration = (expirationDate) => {
   try {
     const expDate = parseISO(expirationDate);
